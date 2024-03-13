@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{05348121-64c9-45f8-888a-7492fd608bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{24289e9f-14f3-410a-b601-4091190fcdb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protect">
+      <UniqueIdentifier>{afad7ef1-45bb-41cd-a800-efd6106ee915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{abf00fa6-ae1e-4b70-b351-59858707dd55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SKD">
+      <UniqueIdentifier>{d04b957b-554c-4af6-b310-b10af23ca7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DX">
+      <UniqueIdentifier>{8d837ff2-7b42-4fab-98fe-7eab78fcd6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESP">
+      <UniqueIdentifier>{6008ef8f-b8dc-45d4-a591-9daf9a4684d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIBS">
+      <UniqueIdentifier>{321163f4-b36a-4cfd-a1ba-5d799c9b7a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl">
+      <UniqueIdentifier>{a9289491-c88b-4282-b6a3-946d43832669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio">
+      <UniqueIdentifier>{88044c7c-a000-4467-9308-43157bcb68ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_android.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\anti_vm.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\antiDbg.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\auth.hpp">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\lazy.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\obfuscator.hpp">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\process.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\skCrypt.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\xorstr.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\blowfish\blowfish.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\SDK\keygen64.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\SDK\obsidium.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="protect\SDK\obsidium64.h">
+      <Filter>Protect</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\ImGui MISC\animations.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\ImGui MISC\notify.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="SKD.h">
+      <Filter>SKD</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9anim.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9core.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9effect.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9math.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9mesh.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9shader.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9shape.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9tex.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX\d3dx9xof.h">
+      <Filter>D3DX</Filter>
+    </ClInclude>
+    <ClInclude Include="OVERLAY.h">
+      <Filter>SKD</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="cache.h">
+      <Filter>ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>SKD</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.hpp" />
+    <ClInclude Include="mouse.hpp" />
+    <ClInclude Include="asio.hpp">
+      <Filter>asio</Filter>
+    </ClInclude>
+    <ClInclude Include="aimkey.h">
+      <Filter>SKD</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\global.h" />
+    <ClInclude Include="xor.hpp" />
+    <ClInclude Include="shit.h" />
+    <ClInclude Include="mouse1.hpp" />
+    <ClInclude Include="driver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.hpp">
+      <Filter>ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="auth.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="protect\blowfish\blowfish.cpp">
+      <Filter>Protect</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="imgui\imgui.natvis">
+      <Filter>Imgui</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="protect\SDK\keygen64.dll">
+      <Filter>Protect</Filter>
+    </None>
+    <None Include="protect\SDK\obsidium64.def">
+      <Filter>Protect</Filter>
+    </None>
+    <None Include="protect\SDK\obsidium64.dll">
+      <Filter>Protect</Filter>
+    </None>
+    <None Include="D3DX\d3dx9math.inl">
+      <Filter>D3DX</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="protect\SDK\obsidium64.a">
+      <Filter>Protect</Filter>
+    </Library>
+    <Library Include="D3DX\d3dx9.lib">
+      <Filter>D3DX</Filter>
+    </Library>
+    <Library Include="D3DX\d3dx11.lib">
+      <Filter>D3DX</Filter>
+    </Library>
+    <Library Include="keygen64.lib">
+      <Filter>LIBS</Filter>
+    </Library>
+    <Library Include="obsidium64.lib">
+      <Filter>LIBS</Filter>
+    </Library>
+    <Library Include="library_x64.lib" />
+    <Library Include="libcurl.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="protect\SDK\obsidiumlib.obj">
+      <Filter>Protect</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\GeForce_Now.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Selfed1.rc" />
+  </ItemGroup>
+</Project>
